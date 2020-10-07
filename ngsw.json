@@ -1,0 +1,88 @@
+{
+  "configVersion": 1,
+  "timestamp": 1602070078962,
+  "index": "https://github.com/JoseMGarcia34/TiendaAngular/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://github.com/JoseMGarcia34/TiendaAngular/favicon.ico",
+        "https://github.com/JoseMGarcia34/TiendaAngular/index.html",
+        "https://github.com/JoseMGarcia34/TiendaAngular/main.0cc1e7fd36e59bb36dbf.js",
+        "https://github.com/JoseMGarcia34/TiendaAngular/manifest.webmanifest",
+        "https://github.com/JoseMGarcia34/TiendaAngular/polyfills.35a5ca1855eb057f016a.js",
+        "https://github.com/JoseMGarcia34/TiendaAngular/runtime.acf0dec4155e77772545.js",
+        "https://github.com/JoseMGarcia34/TiendaAngular/styles.8ac170cdbc28e923dff8.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://github.com/JoseMGarcia34/TiendaAngular/assets/cursos.json",
+        "https://github.com/JoseMGarcia34/TiendaAngular/assets/frontend.jpg",
+        "https://github.com/JoseMGarcia34/TiendaAngular/assets/fullstack.jpg",
+        "https://github.com/JoseMGarcia34/TiendaAngular/assets/icons/icon-128x128.png",
+        "https://github.com/JoseMGarcia34/TiendaAngular/assets/icons/icon-144x144.png",
+        "https://github.com/JoseMGarcia34/TiendaAngular/assets/icons/icon-152x152.png",
+        "https://github.com/JoseMGarcia34/TiendaAngular/assets/icons/icon-192x192.png",
+        "https://github.com/JoseMGarcia34/TiendaAngular/assets/icons/icon-384x384.png",
+        "https://github.com/JoseMGarcia34/TiendaAngular/assets/icons/icon-512x512.png",
+        "https://github.com/JoseMGarcia34/TiendaAngular/assets/icons/icon-72x72.png",
+        "https://github.com/JoseMGarcia34/TiendaAngular/assets/icons/icon-96x96.png",
+        "https://github.com/JoseMGarcia34/TiendaAngular/assets/wordpress.jpg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://github.com/JoseMGarcia34/TiendaAngular/assets/cursos.json": "62695303dd984adb1a2a9ae3292ce061585f3ee5",
+    "https://github.com/JoseMGarcia34/TiendaAngular/assets/frontend.jpg": "0dce3f244a838137647e4f388cede6f769313ad1",
+    "https://github.com/JoseMGarcia34/TiendaAngular/assets/fullstack.jpg": "b78cb4656677dde1e3594e70d4925b8a34f95b4c",
+    "https://github.com/JoseMGarcia34/TiendaAngular/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://github.com/JoseMGarcia34/TiendaAngular/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://github.com/JoseMGarcia34/TiendaAngular/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://github.com/JoseMGarcia34/TiendaAngular/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://github.com/JoseMGarcia34/TiendaAngular/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://github.com/JoseMGarcia34/TiendaAngular/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://github.com/JoseMGarcia34/TiendaAngular/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://github.com/JoseMGarcia34/TiendaAngular/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://github.com/JoseMGarcia34/TiendaAngular/assets/wordpress.jpg": "8d0697b616369bb2af0590ecb21d4c4674717c90",
+    "https://github.com/JoseMGarcia34/TiendaAngular/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://github.com/JoseMGarcia34/TiendaAngular/index.html": "e15cf7a22d8276dfca423fd7deee52a55ee66023",
+    "https://github.com/JoseMGarcia34/TiendaAngular/main.0cc1e7fd36e59bb36dbf.js": "5940ab1d3cbcebec17d77f86cf16c8167f089ced",
+    "https://github.com/JoseMGarcia34/TiendaAngular/manifest.webmanifest": "c01929cb7260a831387a1429c25d07b658bc2d38",
+    "https://github.com/JoseMGarcia34/TiendaAngular/polyfills.35a5ca1855eb057f016a.js": "578360d24ce37383f261c7ef63b1f822d28e8dde",
+    "https://github.com/JoseMGarcia34/TiendaAngular/runtime.acf0dec4155e77772545.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://github.com/JoseMGarcia34/TiendaAngular/styles.8ac170cdbc28e923dff8.css": "77fbe09f6ad055dec9cf16a334bc7ff2faa51a4a"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
