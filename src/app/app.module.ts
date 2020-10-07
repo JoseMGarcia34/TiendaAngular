@@ -11,6 +11,8 @@ import { ConfirmComponent } from './confirm/confirm.component';
 import { StatusCartComponent } from './status-cart/status-cart.component';
 import { FormularioprimeroComponent } from './formularioprimero/formularioprimero.component';
 import { FormulariosegundoComponent } from './formulariosegundo/formulariosegundo.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,8 @@ import { FormulariosegundoComponent } from './formulariosegundo/formulariosegund
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent]
