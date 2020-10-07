@@ -1,4 +1,4 @@
-import { Component, OnInit, OnChanges, EventEmitter, SimpleChanges, Input, Output } from '@angular/core';
+import { Component, OnInit, OnChanges, DoCheck, EventEmitter, SimpleChanges, Input, Output } from '@angular/core';
 import { Product } from '../interface/product';
 
 
@@ -7,7 +7,7 @@ import { Product } from '../interface/product';
   templateUrl: './status-cart.component.html',
   styleUrls: ['./status-cart.component.css']
 })
-export class StatusCartComponent implements OnInit, OnChanges {
+export class StatusCartComponent implements OnInit {
 
   @Input() price: number;
   @Input() shopModel: Array<Product>;
@@ -18,9 +18,15 @@ export class StatusCartComponent implements OnInit, OnChanges {
   ngOnInit(): void {
   }
 
+  ngDoCheck() {
+    console.log("Interacción DOM");
+  }
+
+/*
   ngOnChanges(changes: SimpleChanges): void {
     console.log(changes);
   }
+  */
 
   confirm(){
     this.add.emit();

@@ -33,11 +33,14 @@ export class StatefulComponent implements OnInit, OnDestroy {
   this.shopSubscription = this.http.get('assets/cursos.json').subscribe(
     (respuesta: Response) => { this.shopModel.shopItems = respuesta; },
     (respuesta: Response) => { this.errorHttp = true }
-  )
+  );
+
+  this.onGlobalKeyboard();
 }
 
 ngOnDestroy() {
   this.shopSubscription.unsubscribe();
+  document.removeEventListener("keypress", this.onKeyboard);
 }
 
  clickItem(curso) {
@@ -61,6 +64,22 @@ ngOnDestroy() {
 
  onConfirm () {
    alert("Has añadido un nuevo curso");
+ }
+
+ confirmEnter () {
+   alert("Has pulsado ENTER");
+ }
+
+ onKeyboard(_event) {
+   if(_event.key === "Enter") {
+     this.confirmEnter();
+   }
+ }
+
+ onGlobalKeyboard() {
+   document.addEventListener("keypress", (eventoGlobal) =>{
+     this.onKeyboard(eventoGlobal);
+   })
  }
 
 }

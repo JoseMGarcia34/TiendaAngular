@@ -30,5 +30,9 @@ export class StatelessComponent implements OnInit {
     return !!this.disable;
   }
 
+  mensaje() {
+    alert("¿No te vas a descargar la imagen verdad?");
+  }
+
   
 }

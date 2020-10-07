@@ -3,7 +3,7 @@
     <div class="starter-template">
         <h1>Stateful</h1>
         <p class="lead">Ejemplo de componente stateful</p>
-
+        
         <div class="card-deck">
             <div class="card" *ngFor="let curso of shopModel.shopItems">
                 <app-stateless [product]="curso" (cursomatriculado)="cursoMatriculado($event)"></app-stateless>
@@ -23,6 +23,7 @@
     [price]="finalPrice()"
     [shopModel]="shopModel.shopItems" (add)="onConfirm()"
     ></app-status-cart>
+    
 </main><!-- /.container -->
 
 
